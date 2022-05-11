@@ -3,6 +3,7 @@
 /**
  * Required External Modules
  */
+const newrelic = require("newrelic");
 const express = require("express");
 const path = require("path");
 
@@ -10,7 +11,7 @@ const path = require("path");
  * App Variables
  */
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3000;
 
 /**
  *  App Configuration
@@ -18,6 +19,7 @@ const port = process.env.PORT || 8000;
  app.set("views", path.join(__dirname, "views"));
  app.set("view engine", "pug");
  app.use(express.static(path.join(__dirname, "public")));
+ app.locals.newrelic = newrelic;
 
 /**
  * Routes Definitions
@@ -27,7 +29,7 @@ app.get('/', (req, res) => {
 })
 
 app.get("/user", (req, res) => {
-    res.render("user", { title: "Fibonacci", userProfile: { Value: '42' } });
+    res.render("user", { title: "Fibonacci", userProfile: { Value: 'Wow this site is really slow' } });
   });
 
 /**

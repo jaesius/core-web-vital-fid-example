@@ -2,20 +2,27 @@
 
 # Core Web Vital - FID Example [build badges go here when available]
 
-> This is a simple node app that shows how your Core Web Vital - FID is impacted by thread blocking JavaScript.
+> This is a simple node app that shows how your 'Core Web Vital - FID' is impacted by thread blocking JavaScript.
 
 ## Installation
 
-> This project is a Nodejs app. It assumes that you have a working, it assumes you have Node installed.
+> This project is a Nodejs app. It assumes you have Node installed.
 
-Once you have a running, Node, you simply:
+Once you have Node, you simply run:
 
 ```
 $ npm install
 ```
 
+... to install dependencies.
+
 ## Getting Started
->[Simple steps to start working with the software similar to a "Hello World"]
+>Once packages are installed, run the following each in their own terminal instances to start the app:
+
+'''
+npm run dev
+npm run ui
+'''
 
 ## Usage
 >[**Optional** - Include more thorough instructions on how to use the software. This section might not be needed if the Getting Started section is enough. Remove this section if it's not needed.]

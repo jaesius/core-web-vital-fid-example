@@ -12,7 +12,7 @@ let fib = function(x) {
   randint = getRandomInt(100)
 
   if (randint < 76) {
-    fib(43);
+    fib(50);
   } else if (randint < 86 && randint > 75) {
     fib(20);
   } else fib(1);

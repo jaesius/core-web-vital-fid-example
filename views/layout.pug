@@ -1,0 +1,19 @@
+block variables
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    link(rel="shortcut icon", href="/favicon.ico")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(name="theme-color", content="#000000")
+    title #{title} | Completely Blocked
+    link(rel="stylesheet" href="/css/style.css")
+    script(src='/js/fib.js')
+  body
+    div#root
+      block layout-content
+      script(type="module").
+        import {getCLS, getFID, getLCP} from 'https://unpkg.com/web-vitals?module';
+        getCLS(console.log);
+        getFID(console.log);
+        getLCP(console.log);

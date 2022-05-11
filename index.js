@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 })
 
 app.get("/user", (req, res) => {
-    res.render("user", { title: "Fibonacci", userProfile: { Value: '42' } });
+    res.render("user", { title: "Fibonacci", userProfile: { Value: 'Wow this site is really slow' } });
   });
 
 /**

@@ -3,9 +3,9 @@
 /**
  * Required External Modules
  */
+const newrelic = require('newrelic');
 const express = require("express");
 const path = require("path");
-const newrelic = require('newrelic');
 
 /**
  * App Variables

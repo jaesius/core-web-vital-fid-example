@@ -15,4 +15,3 @@ let fib = function(x) {
   } else if (randint > 29 && randint < 86) {
     fib(20);
   } else fib(1);
-  

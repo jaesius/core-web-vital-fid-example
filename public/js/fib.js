@@ -10,8 +10,8 @@ let fib = function(x) {
 
   randint = getRandomInt(100)
 
-  if (randint < 10) {
+  if (randint < 30) {
     fib(44);
-  } else if (randint > 9 && randint < 86) {
+  } else if (randint > 29 && randint < 86) {
     fib(20);
   } else fib(1);

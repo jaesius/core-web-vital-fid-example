@@ -9,11 +9,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['web-vital-fid-example'],
+  app_name: ['Shopping Cart'],
   /**
    * Your New Relic license key.
    */
-  license_key: '13c0f47b428b4a1f07549dcee82e0ff6FFFFNRAL',
+  license_key: 'f174e693547df1c28dd4a403a0bc435fFFFFNRAL',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing

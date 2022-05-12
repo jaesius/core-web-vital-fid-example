@@ -1,4 +1,3 @@
-
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
@@ -12,7 +11,7 @@ let fib = function(x) {
   randint = getRandomInt(100)
 
   if (randint < 76) {
-    fib(45);
+    fib(44);
   } else if (randint < 86 && randint > 75) {
     fib(20);
   } else fib(1);

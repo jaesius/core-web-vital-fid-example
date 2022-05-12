@@ -1,5 +1,5 @@
 module.exports = {
-    proxy: "localhost:8000",
+    proxy: "localhost:3000",
     files: ["**/*.css", "**/*.pug", "**/*.js"],
     ignore: ["node_modules"],
     reloadDelay: 10,
